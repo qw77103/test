@@ -1,0 +1,35 @@
+#menu{
+/*     width: 300px; */
+    margin: 0 auto;
+}
+.item{
+    float: left;
+}
+.main{
+    background-color: #e33535;
+    color: #FFF;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    width: 100px;
+}
+.main:hover{
+    background-color: #aaa;
+}
+.sub{
+    background-color: #4d4949;
+    color: #FFF;
+    font-family: "微軟正黑體";
+    text-align: center;
+    font-weight: bold;
+    width: 100px;
+}
+.sub li{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #777;
+}

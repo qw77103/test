@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- Place somewhere in the <head> of your document -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="jquery/jquery.flexslider.js"></script>
+    <!--<script src="jquery/jquery.menu.js"></script>-->
+
+
+    <title>泰山職訓局</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 200vh;
+            background-image:
+                url(https://mdn.mozillademos.org/files/11307/bubbles.png),
+                linear-gradient(to right, rgba(30, 75, 115, 1), rgba(250, 250, 250, 0));
+
+            background-repeat:
+                no-repeat,
+                no-repeat;
+
+
+            background-position:
+                left top,
+                right;
+
+            color: black;
+        }
+
+        .logo {
+            border: 5px black solid;
+        }
+
+        .title {
+            color: black;
+            font-size: 24pt;
+            font-family: Microsoft JhengHei;
+            
+        }
+
+
+        a:link {
+            /*設定還沒瀏覽過的連結*/
+            background-color: rgb(31, 3, 3);
+            text-decoration: none;
+        }
+
+        a:visited {
+            background-color: rgb(15, 3, 180);
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: rgb(255, 255, 3);
+        }
+
+
+        .div1 {
+            color: rgb(201, 6, 6);
+            font-size: 20pt;
+            text-shadow: 0px 1px rgb(11, 6, 68);
+        }
+    </style>
+    <script type="text/javascript" charset="utf-8">
+        $(function () {
+            $(".flexslider").flexslider({
+                slideshowSpeed: 4000, //展示时间间隔ms
+                animationSpeed: 400, //滚动时间ms
+                touch: true, //是否支持触屏滑动
+                animationLoop: true,
+                controlNav: true, //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <!--<img class="logo" src="./img/tailogo.JPG" alt="" height="500px" width="1100px">-->
+        
+
+        <div class="flexslider" style="width:980px;">
+            <ul class="slides">
+                <li><img src="./img/tailogo1.JPG" alt="輪播圖片1" width="100%" height="100%"></li>
+                <li><img src="./img/tailogo2.png" alt="輪播圖片2" width="100%" height="100%"></li>
+                <li><img src="./img/tailogo3.png" alt="輪播圖片3" width="100%" height="100%"></li>
+                <li><img src="./img/tailogo4.png" alt="輪播圖片4" width="100%" height="100%"></li>
+            </ul>
+        </div>
+
+        
+
+        <div class="col-md-6 title">
+            <P>泰山職業訓練場介紹</P>
+            <div class="div1">
+                <ul>
+                    <li>地址：24302新北市泰山區貴子里致遠新村55之1號</li>
+                    <li>電話：02-2901-8274</li>
+                    <li>傳真：02-2908-4773</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="col-md-6 title">
+            <p> 訓練職類 </p>
+            <div class="div1">
+                <ol>
+                    <li>電腦輔助機械設計與製造職類</li>
+                    <li>精密機械職類</li>
+                    <li>電腦數值控制機械職類</li>
+                    <li>數位影音設計與行銷職類</li>
+                </ol>
+            </div>
+        </div>
+        <div class="col-md-12 title">
+            <div class="link">
+                <a href="https://tkyhkm.wda.gov.tw/Default.aspx" target="_blank" title="職訓局網站首頁">職訓局網站首頁</a>
+            </div>
+        </div>
+
+
+        <div class="col-md-5 title">
+            <p> 影片介紹</p>
+            <iframe width="530" height="315" src="https://www.youtube.com/embed/Aai9IZHkRJY" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="col-md-5 title">
+            <p> 地理位置</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14459.149502966271!2d121.41351146717228!3d25.041288830142634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa639904a89f26435!2z5Yue5YuV6YOo5Yue5YuV5Yqb55m85bGV572y5YyX5Z-65a6c6Iqx6YeR6aas5YiG572y5rOw5bGx6IG35qWt6KiT57e05aC0!5e0!3m2!1szh-TW!2stw!4v1555134517936!5m2!1szh-TW!2stw"
+                width="530" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+    </div>
+</body>
+
+
+</html>
